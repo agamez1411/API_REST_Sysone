@@ -1,12 +1,19 @@
 package com.api_sysone.rest;
 
+import java.util.Scanner;
+
 public class opcionales extends Automovil{
 	
-	private int TC=12000;
-	private int AA=20000;
-	private int ABS=14000;
-	private int AB=7000;
-	private int LL=12000;
+	opcionales(int id, int sedan, int coupe, int familiar) {
+		super(id, sedan, coupe, familiar);
+		// TODO Auto-generated constructor stub
+	}
+
+	protected int TC=12000;
+	protected int AA=20000;
+	protected int ABS=14000;
+	protected int AB=7000;
+	protected int LL=12000;
 
 	public int getTC() {
 		return TC;
@@ -48,5 +55,17 @@ public class opcionales extends Automovil{
 		LL = lL;
 	}
 
-	
 }
+
+public class MainOpcionales{
+	
+	static Scanner entrada = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Hola mundo");
+	}
+	
+	
+} 
+
